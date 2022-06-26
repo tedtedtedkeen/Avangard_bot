@@ -1,0 +1,20 @@
+{
+  "name": "botavangard",
+  "version": "1.0.0",
+  "description": "Bot for support",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon bot.js",
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fedor Sitkovsky",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "telegraf": "^4.8.5"
+  }
+}
