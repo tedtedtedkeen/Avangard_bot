@@ -53,7 +53,7 @@ composer.action("btn_other", async (ctx) => {
  \nЕсли вам требуется помощь, нажмите на кнопку ниже, чтобы связаться с оператором.`,
         Markup.inlineKeyboard([
             [Markup.button.url("Перейти в чат с оператором", "https://t.me/HC_Avangard_chat_bot")],
-            [Markup.button.callback("Назад", "btn_back-to-start")],
+            [Markup.button.callback("⬅ Назад", "btn_back-to-start")],
         ]));
     } catch (e) {
         console.log(e);

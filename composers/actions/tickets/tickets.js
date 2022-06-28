@@ -38,11 +38,11 @@ composer.action("btn_ticket-refund", async (ctx) => {
 composer.action("btn_question-tickets", async (ctx) => {
     try {
         await ctx.answerCbQuery();
-        await ctx.replyWithHTML(`<b>Чат с оператором</b>
+        await ctx.replyWithHTML(`💬 <b>Чат с оператором</b>
 \nЕсли вам требуется помощь, нажмите на кнопку ниже, чтобы связаться с оператором и опишите вашу проблему.`, 
         Markup.inlineKeyboard([
             [Markup.button.url("Перейти в чат с оператором", "https://t.me/HC_Avangard_chat_bot")],
-            [Markup.button.callback("Назад", "btn_back-to-tickets")],
+            [Markup.button.callback("⬅ Назад", "btn_back-to-tickets")],
         ]));
     } catch (e) {
         console.log(e);
